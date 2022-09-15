@@ -122,7 +122,10 @@
     "url": "https://github.com/oceanprotocol/market"
   },
   "engines": {
-    "node": ">=14"
+    "npm": ">=8.7.0"
+  },
+  "overrides": {
+    "react": "$react"
   },
   "browserslist": [
     ">0.2%",
